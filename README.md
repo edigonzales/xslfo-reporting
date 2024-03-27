@@ -19,3 +19,6 @@ Testen:
 - Frutiger
 - Header in sauber
 - WMS-Request muss mit SQL berechenbar sein (BBOX)
+- Workflow überlegen:
+  1. Grundgerüst xsl -> pdf (ohne dynamische Daten)
+  2. sql
