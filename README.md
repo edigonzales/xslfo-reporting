@@ -18,3 +18,4 @@ Testen:
 - Bilder via URL
 - Frutiger
 - Header in sauber
+- WMS-Request muss mit SQL berechenbar sein (BBOX)
