@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<grundstueck>
+    <nummer>992</nummer>
+    <gemeinde>Solothurn</gemeinde>
+    <grundbuch>Solothurn</grundbuch>
+    <egrid>CH870679603216</egrid>
+    <nbident>SO0200002601</nbident>
+    <art>Liegenschaft</art>
+    <eintrag>
+        <stichwort>Genf</stichwort>
+        <eintragstext>Genf ist der Sitz von ...</eintragstext>
+    </eintrag>
+    <eintrag>
+        <stichwort>Köln</stichwort>
+        <eintragstext>Köln ist eine Stadt, die ...</eintragstext>
+    </eintrag>
+</grundstueck>
