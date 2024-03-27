@@ -8,8 +8,7 @@ Download: https://sourceforge.net/projects/offo/files/offo-hyphenation/
 Kopiere in fop/libs Ordner.
 
 ```
-/Users/stefan/apps/fop-2.9/fop/fop -fo grundstuecksbeschrieb.fo -pdf grundstuecksbeschrieb.pdf
- -c fop.xconf
+/Users/stefan/apps/fop-2.9/fop/fop -fo grundstuecksbeschrieb.fo -pdf grundstuecksbeschrieb.pdf -c fop.xconf
 ```
 
 
