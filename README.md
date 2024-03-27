@@ -20,5 +20,6 @@ Testen:
 - Header in sauber
 - WMS-Request muss mit SQL berechenbar sein (BBOX)
 - Workflow überlegen:
+  0. "Schema" überlegen (dummy xml)
   1. Grundgerüst xsl -> pdf (ohne dynamische Daten), nur mit root-element-match
   2. sql
