@@ -20,7 +20,8 @@ Testen:
 - Autorisierung?
 - Bilder via URL
 - ~~Frutiger~~
-- Header in sauber
+- ~~Header in sauber~~
+- Was passiert wenn an einer Koordinate zwei Objekte liegen? (technologie-unabhängige Frage (glaubs)). Z.B. Selbstrecht auf Liegenschaft.
 - WMS-Request muss mit SQL berechenbar sein (BBOX)
 - Workflow überlegen:
   0. "Schema" überlegen (dummy xml)
