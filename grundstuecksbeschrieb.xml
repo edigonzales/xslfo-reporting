@@ -6,12 +6,24 @@
     <egrid>CH870679603216</egrid>
     <nbident>SO0200002601</nbident>
     <art>Liegenschaft</art>
-    <eintrag>
-        <stichwort>Genf</stichwort>
-        <eintragstext>Genf ist der Sitz von ...</eintragstext>
-    </eintrag>
-    <eintrag>
-        <stichwort>Köln</stichwort>
-        <eintragstext>Köln ist eine Stadt, die ...</eintragstext>
-    </eintrag>
+    <flaechenmass>66274</flaechenmass>
+    <bodbdanteil>
+        <art>befestigt.Strasse_Weg</art>
+        <artbezeichnung>Strasse_Weg</artbezeichnung>
+        <flaechenmass>0.0434767828969419</flaechenmass>
+    </bodbdanteil>
+    <bodbdanteil>
+        <art>befestigt.uebrige_befestigte</art>
+        <artbezeichnung>uebrige_befestigte</artbezeichnung>
+        <flaechenmass>2580.001020115458</flaechenmass>
+    </bodbdanteil>
+    <bodbdanteil>
+        <art>Gebaeude</art>
+        <artbezeichnung>Gebaeude</artbezeichnung>
+        <flaechenmass>1605.8203055014394</flaechenmass>
+    </bodbdanteil>
+    <flurname>Dreibeinskreuz</flurname>
+    <flurname>Glacismatt</flurname>
+    <flurname>Hauptbahnhof</flurname>
+    <flurname>Zuchwilerstrasse</flurname>
 </grundstueck>

@@ -12,9 +12,9 @@
                     <fo:region-after extent="10mm" background-color="transparent" display-align="after"/>
                 </fo:simple-page-master>
                 <fo:simple-page-master master-name="other-pages" page-height="297mm" page-width="210mm" margin-top="10mm" margin-bottom="10mm" margin-left="12mm" margin-right="10mm">
-                    <fo:region-body margin-top="15mm" margin-bottom="15mm" background-color="transparent"/>
-                    <fo:region-before extent="10mm" background-color="transparent"/>
-                    <fo:region-after extent="10mm" background-color="transparent" display-align="after"/>
+                    <fo:region-body margin-top="15mm" margin-bottom="15mm" background-color="skyblue"/>
+                    <fo:region-before extent="10mm" background-color="blue"/>
+                    <fo:region-after extent="10mm" background-color="salmon" display-align="after"/>
                 </fo:simple-page-master>
 
                 <fo:page-sequence-master master-name="page-sequence">
@@ -40,7 +40,7 @@
                 <fo:static-content flow-name="xsl-region-before-first">
                     <fo:block>
                         <fo:block-container text-align="end" margin="0mm" padding="0mm" background-color="transparent">
-                            <fo:block margin="0mm" padding="0mm" font-size="0pt" background-color="transparent">
+                            <fo:block margin="0mm" padding="0mm" font-size="0pt" background-color="green">
                             
                                 <!--<fo:external-graphic height="6.7mm" width="60mm" content-width="scale-to-fit" content-height="scale-to-fit" fox:alt-text="CantonalLogo">-->
                                 <fo:external-graphic width="60mm" content-width="scale-to-fit" fox:alt-text="CantonalLogo">
@@ -53,7 +53,7 @@
                             
                             </fo:block>
                         </fo:block-container>
-                        <fo:block-container margin="0mm" padding="0mm" background-color="transparent">
+                        <fo:block-container margin="0mm" padding="0mm" background-color="red">
                             <fo:block font-style="italic" font-weight="700">
                                 Amt für Geoinformation
                             </fo:block>
@@ -82,7 +82,7 @@
                 </fo:static-content>
 
                 <fo:static-content flow-name="xsl-region-after">
-                    <fo:block text-align="center" background-color="transparent">
+                    <fo:block text-align="center" background-color="red">
                         <fo:block>Seite <fo:page-number/>/<fo:page-number-citation-last ref-id="my-sequence-id"/></fo:block>
                     </fo:block>
                 </fo:static-content>
@@ -198,7 +198,7 @@
                                             <fo:table-column column-width="50mm"/>
                                             <fo:table-column column-width="20mm"/>
                                             <fo:table-column column-width="5mm"/>
-                                            <fo:table-body border-width="0pt" border-style="solid">
+                                            <fo:table-body border-width="1pt" border-style="solid">
                                             <xsl:for-each select="bodbdanteil">
                                                 <xsl:sort select="upper-case(artbezeichnung)"/>
                                                 <fo:table-row border-width="0pt" border-style="solid">

@@ -11,11 +11,15 @@ Kopiere in fop/libs Ordner.
 /Users/stefan/apps/fop-2.9/fop/fop -fo grundstuecksbeschrieb.fo -pdf grundstuecksbeschrieb.pdf -c fop.xconf
 ```
 
+```
+./xml2pdf.sh grundstuecksbeschrieb
+```
 
 Testen:
 
+- Autorisierung?
 - Bilder via URL
-- Frutiger
+- ~~Frutiger~~
 - Header in sauber
 - WMS-Request muss mit SQL berechenbar sein (BBOX)
 - Workflow überlegen:
