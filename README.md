@@ -28,6 +28,10 @@ Testen:
   1. Grundgerüst xsl -> pdf (ohne dynamische Daten), nur mit root-element-match
   2. sql
 
+Grundstücksbeschrieb:
+
+- Momentan - im Gegensatz zum PDF im Web GIS Client - via Koordinate. Mit Koordinate kann es zu meheren Treffern (Baurecht / Liegenschaft) kommen. Entscheid des Projekts wie man damit umgehen will. Auswirkungen auf SQL und XSLT.
+
 
 EWS:
 
